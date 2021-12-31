@@ -5,6 +5,7 @@
     justify-content: center;
     position: relative;
     min-height: 80px;
+    outline: solid 1px red;
 }
 .application__button-in-statusbar_wrapper {
     position: relative;
@@ -80,6 +81,7 @@
     box-sizing: border-box;
     padding: 0;
     text-align: left;
+    outline: solid 1px red;
 }
 .application__wrapper-for-secondary-buttons-left-side{
     text-align: left;
@@ -89,6 +91,7 @@
 .application__wrapper-for-secondary-buttons-right-side{
     min-width: 80px;
     text-align: center;
+    outline: solid 1px red;
 }
 .application__wrapper-for-secondary-buttons-left-side::before, .application__wrapper-for-secondary-buttons-right-side::before{
     display: inline-block;
