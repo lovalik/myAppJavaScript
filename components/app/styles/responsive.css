@@ -108,12 +108,6 @@
     .application__select-language-menu{
         width: 125px;
     }
-    .application__select-language-menu-english_word, .application__select-language-menu-russian_word{
-        font-size: 16px;
-    }
-    .application__select-language-menu-english_symbol, .application__select-language-menu-russian_symbol{
-        font-size: 16px;
-    }
 }
 @media screen and (max-width: 412px){
     .myApplication {

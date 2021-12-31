@@ -154,7 +154,7 @@
     box-sizing: border-box;
     display: none;
     position: absolute;
-    left: 0;
+    left: 0px;
     top: 0;
     margin: 0;
     vertical-align: middle;
@@ -176,7 +176,7 @@
 .application__select-language-menu-row-for-english, .application__select-language-menu-row-for-russian{
     box-sizing: border-box;
     position: absolute;
-    right: 10%;
+    right: 8%;
     width: 50%;
     height: 50%;
     text-align: left;
@@ -204,8 +204,8 @@
     display: inline-block;
     margin: 0;
     padding: 0;
-    height: 90%;
-    width: 30%;
+    height: 100%;
+    width: 25%;
     vertical-align: middle;
     text-align: left;
     font-size: 18px;
@@ -221,11 +221,12 @@
     box-sizing: border-box;
     display: inline-block;
     padding: 0;
-    height: 90%;
-    width: 70%;
+    height: 100%;
+    width: 75%;
     text-align: center;
     font-size: 18px;
     vertical-align: middle;
+    outline: solid 1px red;
 }
 .application__select-language-menu-english_word::before, .application__select-language-menu-russian_word::before{
     display: inline-block;
