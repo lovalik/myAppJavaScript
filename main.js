@@ -1,4 +1,4 @@
-import { createApp } from "./components/App/main.js";
+import { createApp } from "./components/app/main.js";
 
 createApp( {
     
