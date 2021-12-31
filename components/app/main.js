@@ -229,9 +229,13 @@ function createApp( { addApplicationToDocument } ) {
 
     }
 
-    window.addEventListener( "beforeunload", () => {
-        localStorage.setItem( `applicationState`, JSON.stringify( applicationState ) );
-    } );
+    document.addEventListener("visibilitychange", function() {
+
+        if ( document.visibilityState === 'hidden') {
+            localStorage.setItem( `applicationState`, JSON.stringify( applicationState ) );
+        }
+        
+    });
 
 }
 
