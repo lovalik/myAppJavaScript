@@ -1,0 +1,247 @@
+/* CONTROL BUTTONS ON LEFT SIDE */
+.timer__button-left-side-top_wrapper, .timer__button-left-side-bottom_wrapper {
+    position:absolute;
+    left: -37px;
+    width: 32px;
+    height: 80px;
+}
+.timer__button-left-side-top_wrapper {
+    top: 64px; 
+}
+.timer__button-left-side-bottom_wrapper {
+    bottom: 64px;
+}
+.timer__button-left-side-top_part1, .timer__button-left-side-bottom_part1 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 13px;
+    height: 80px;
+    background-image: radial-gradient(at 55% 25%, rgb(102, 99, 99), black, black);
+    border-radius: 6px / 40px;
+}
+.timer__button-left-side-top_part2, .timer__button-left-side-bottom_part2{
+    box-sizing: border-box;
+    position:absolute;
+    top: 16px;
+    right: 7px;
+    width: 14px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(at 75% 25%, rgb(102, 99, 99), black, black);
+    z-index: 10000;
+    border: solid 1px rgb(0, 0, 0);
+    border-bottom-right-radius: 3px 24px;
+    border-top-right-radius: 3px 24px;
+    border-bottom-left-radius: 6px 24px;
+    border-top-left-radius: 6px 24px;
+    cursor: pointer;
+}
+.timer__button-left-side-top_part3, .timer__button-left-side-bottom_part3 {
+    box-sizing: border-box;
+    position:absolute;
+    top: 8px;
+    left: 18px;
+    width: 10px;
+    height: 64px;
+    background-image: radial-gradient(at 75% 25%, rgb(255, 255, 255),  rgb(180, 180, 180),  rgb(150, 150, 150), rgb(150, 150, 150), rgb(150, 150, 150));
+    z-index: 1000;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px / 32px;
+}
+/* CONTROL BUTTONS ON RIGHT SIDE */
+.timer__button-right-side-top_wrapper, .timer__button-right-side-bottom_wrapper {
+    position:absolute;
+    right: -37px;
+    width: 32px;
+    height: 80px;
+}
+.timer__button-right-side-top_wrapper {
+    top: 64px;
+}
+.timer__button-right-side-bottom_wrapper {
+    bottom: 64px;
+}
+.timer__button-right-side-top_part1, .timer__button-right-side-bottom_part1 {
+    box-sizing: border-box;
+    position:absolute;
+    top: 0;
+    width: 13px;
+    height: 80px;
+    background-image: radial-gradient(at 55% 25%, rgb(102, 99, 99), black, black);
+    border-radius: 6px / 40px;
+}
+.timer__button-right-side-top_part2, .timer__button-right-side-bottom_part2 {
+    box-sizing: border-box;
+    position:absolute;
+    top: 16px;
+    left: 7px;
+    width: 14px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(at 25% 25%, rgb(102, 99, 99), black, black);
+    z-index: 10000;
+    border: solid 1px rgb(0, 0, 0);
+    border-bottom-right-radius: 6px 24px;
+    border-top-right-radius: 6px 24px;
+    border-bottom-left-radius: 3px 24px;
+    border-top-left-radius: 3px 24px;
+    cursor:pointer;
+}
+.timer__button-right-side-top_part3, .timer__button-right-side-bottom_part3 {
+    box-sizing: border-box;
+    position:absolute;
+    top: 8px;
+    right: 18px;
+    width: 10px;
+    height: 64px;
+    z-index: 1000;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px / 32px;
+}
+.timer__button-right-side-bottom_part3{
+    background-image: radial-gradient(at 25% 25%, rgb(255, 255, 255),  rgb(180, 180, 180),  rgb(150, 150, 150), rgb(150, 150, 150), rgb(150, 150, 150));
+}
+.timer__button-right-side-top_part3 {
+    background-image: radial-gradient(at 35% 25%, rgb(248, 166, 166),  rgb(255, 67, 67), rgb(226, 0, 0),  rgb(226, 0, 0), rgb(226, 0, 0) );
+}
+.timer__button-left-side-top_part2:hover, .timer__button-left-side-bottom_part2:hover, .timer__button-right-side-top_part2:hover, .timer__button-right-side-bottom_part2:hover {
+    border: solid red 1px;
+}
+/*SETTING VALUE BUTTONS*/
+.timer__button-increase-value_wrapper, .timer__button-decrease-value_wrapper {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 24px;
+    font-size: 0;
+    text-align: center;
+}
+.timer__button-increase-value_wrapper {
+    top: -88%;
+}
+.timer__button-decrease-value_wrapper {
+    bottom: -88%;
+}
+.timer__button-increase-value_wrapper::before, .timer__button-decrease-value_wrapper::before {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    content:"";
+}
+.timer__button-increase-value, .timer__button-decrease-value {
+    position: relative;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 30px;
+    height: 19px;
+    border: solid 2px rgb(51, 51, 51);
+    cursor: pointer;
+}
+.timer__button-increase-value, .timer__button-decrease-value {
+    background-color: transparent;
+}
+.timer__button-increase-value {
+    border-top-left-radius: 21px 16px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 8px;
+}
+.timer__increase-hours_units, .timer__increase-minutes_units, .timer__increase-seconds_units{
+    border-top-right-radius: 21px 16px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 8px;
+}
+.timer__button-decrease-value {
+    border-bottom-left-radius: 21px 16px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 8px;
+}
+.timer__decrease-hours_units, .timer__decrease-minutes_units, .timer__decrease-seconds_units{
+    border-bottom-right-radius: 21px 16px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 8px;
+}
+.timer__button-increase-value::before, .timer__button-decrease-value::before {
+    position:absolute;
+    font-size: 18px;
+    color:rgb(51, 51, 51);
+}
+.timer__button-increase-value::before{
+    content: "+";
+}
+.timer__button-decrease-value::before{
+    content: "-";
+    height: 70%;
+}
+.timer__increase-hours_decades::before, .timer__increase-minutes_decades::before, .timer__increase-seconds_decades::before {
+    top: -3px;
+    left: 35%;
+}
+.timer__increase-hours_units::before, .timer__increase-minutes_units::before, .timer__increase-seconds_units::before {
+    top: -3px;
+    right: 35%;
+}
+.timer__decrease-hours_decades::before, .timer__decrease-minutes_decades::before, .timer__decrease-seconds_decades::before {
+    top: -5px;
+    right: 35%;
+}
+.timer__decrease-hours_units::before, .timer__decrease-minutes_units::before, .timer__decrease-seconds_units::before {
+    top: -5px;
+    left: 35%;
+}
+.timer__button-increase-value:hover, .timer__button-decrease-value:hover {
+    border-color: red;
+}
+.timer__button-increase-value:hover::before {
+    color: red;
+}
+.timer__button-decrease-value:hover::before {
+    color: red;
+}
+
+/* CAPTION FOR CONTROL BUTTONS ON LEFT AND RIGHT SIDE */
+.timer__title-for-button {
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 1000;
+    margin: 0;
+    width: 18px;
+    height: 64px;
+    font-family: "Days", "Arial", "Helvetica", sans-serif;
+    color: rgb(185, 185, 185);
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    text-shadow: 0 0 1px rgb(255, 2, 2);
+    text-transform: uppercase;
+    background-color: transparent;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 9px;
+    box-shadow: inset 0 0 1px rgb(116, 116, 116);
+}
+.timer__title-for-button-right-side-top, .timer__title-for-button-right-side-bottom{
+    right: 1px;
+    writing-mode: vertical-rl;
+}
+.timer__title-for-button-right-side-top{
+    height: 86px;
+    top: 62px;
+}
+.timer__title-for-button-right-side-bottom, .timer__title-for-button-left-side-bottom{
+    bottom: 72px;
+}
+.timer__title-for-button-left-side-top, .timer__title-for-button-left-side-bottom {
+    left: 1px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.timer__title-for-button-left-side-top {
+    top: 72px;
+}

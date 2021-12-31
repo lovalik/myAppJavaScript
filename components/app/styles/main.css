@@ -1,0 +1,72 @@
+@import url("buttons.css");
+@import url( "responsive.css" );
+
+.application {
+    width: 100vw;
+    margin: 0;
+    font-size: 0;
+}
+.application button:focus{
+    outline: transparent;
+}
+/* STATUSBAR */
+.application__statusbar_wrapper {
+    position: fixed;
+    width: 100%;
+    min-height: 80px;
+    z-index: 1000;
+    font-family: "Days", "Arial", "Helvetica", sans-serif;
+    font-size: 0;
+    min-height: 80px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: solid 1px black;
+    filter: drop-shadow(0 0 10px #000000);
+}
+.application__statusbar_wrapper *::selection{
+    background-color: transparent;
+}
+/* ITEMBAR */
+.application__app-itembar_wrapper {
+    display: none;
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+    background-color: rgb(21, 77, 77);
+}
+.application__app-itembar_wrapper::before{
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    height: 100%;
+    font-size: 0;
+}
+.application__section-for-items{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.application__section-for-items::before{
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    height: 100%;
+    font-size: 0;
+}
+.application__wrapper-for-item {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 432px;
+    height: 432px;
+    margin: 0;
+    font-size: 0;
+    text-align: center;
+    filter: drop-shadow(0 0 16px #000000);
+}
+.application__wrapper-for-item::before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content:"";
+    font-size: 0;
+}

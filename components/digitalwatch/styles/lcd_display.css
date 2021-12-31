@@ -1,0 +1,112 @@
+.digitalwatch__LCDdisplay_wrapper {
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 90%;
+    height: 176px;
+    background-color: rgb(102, 99, 99);
+    font-family: 'Digital', "Arial Narrow", sans-serif;
+    color: black;
+    font-size: 0;
+    text-shadow: 2px 2px 1px rgb(85, 85, 85);
+    border: solid 2px rgb(51, 51, 51);
+    border-radius: 16px;
+}
+.digitalwatch__LCDdisplay-top-part_wrapper {
+    position: relative;
+    height: 26%;
+    font-size: 0;
+}
+.digitalwatch__LCDdisplay-top-part-format12-24_wrapper {
+    position:absolute;
+    top: 35%;
+    left: 14px;
+    z-index: 100;
+    background-color: rgb(102, 99, 99);
+    width: 32px;
+    height: 32px;
+    text-align: right;
+    font-size: 0;
+}
+.digitalwatch__LCDdisplay-format-number {
+    font-size: 18px;
+}
+.digitalwatch__LCDdisplay-format-letter {
+    font-size: 18px;
+}
+.digitalwatch__LCDdisplay-top-part-currentdate_wrapper {
+    position: absolute;
+    top: 35%;
+    right: 14px;
+    width: 65%;
+    height: 50%;
+    text-align: right;
+    font-size: 0;
+}
+.digitalwatch__LCDdisplay-top-part-currentdate_wrapper > * {
+    vertical-align: baseline;
+    font-size: 18px;
+}
+.digitalwatch__LCDdisplay-top-part_dayofweek  {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+/* CURRENT TIME */
+.digitalwatch__LCDdisplay-middle-part_wrapper {
+    position: relative;
+    margin: 0 auto;
+    height: 60%;
+    width: 100%;
+    font-size: 0;
+    text-align: right;
+}
+.digitalwatch__LCDdisplay-middle-part_wrapper > * {
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 60px;
+    color: black;
+}
+.digitalwatch__LCDdisplay-middle-part_prefixAM, .digitalwatch__LCDdisplay-middle-part_prefixPM {
+    display: none;
+    margin-right: 2px;
+    min-width: 38px;
+    font-size: 24px;
+    text-align: center;
+}
+.digitalwatch__LCDdisplay-middle-part_hours_decades, .digitalwatch__LCDdisplay-middle-part_hours_units, .digitalwatch__LCDdisplay-middle-part_minutes_decades, .digitalwatch__LCDdisplay-middle-part_minutes_units  {
+    min-width: 35px;
+    text-align: right;
+}
+.digitalwatch__LCDdisplay-middle-part_colon {
+    line-height: 1.47;
+    vertical-align: top;
+    width: 9px;
+    height: 100%;
+    font-size: 48px;
+}
+.digitalwatch__LCDdisplay-middle-part_seconds_decades, .digitalwatch__LCDdisplay-middle-part_seconds_units {
+    vertical-align: top;
+    margin-top: 8px;
+    min-width: 20px;
+    font-size: 36px;
+    text-align: center;
+}
+.digitalwatch__LCDdisplay-middle-part_seconds_decades {
+    margin-left: 2px;
+}
+.digitalwatch__LCDdisplay-middle-part_seconds_units {
+    margin-right: 5px;
+}
+
+/* BOTTOM PART LCD DISPLAY///////////////////////// */
+.digitalwatch__LCDdisplay-bottom-part_wrapper{
+    font-size: 0;
+}
+.digitalwatch__LCDdisplay-bottom-part_wrapper > * {
+    font-size: 18px;
+}
+.digitalwatch__LCDdisplay-bottom-part_city {
+    margin-left: 5px;
+}

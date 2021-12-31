@@ -1,0 +1,270 @@
+.application__wrapper-for-all-add-buttons{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 80px;
+}
+.application__button-in-statusbar_wrapper {
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 0;
+}
+.application__button-in-statusbar_wrapper::before {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    content:"";
+    font-size: 0;
+}
+.application__button-add-digitalwatch_wrapper{
+    width: 310px;
+}
+.application__button-add-stopwatch_wrapper{
+    width: 310px;
+}
+.application__button-add-timer_wrapper{
+    width: 310px;
+}
+.application__button-in-statusbar {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    padding: 0;
+    background-color: rgb(18, 23, 23);
+    font-family: "Days", "Arial", "Helvetica", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0;
+    border: solid 2px rgb(185, 185, 185);
+    border-radius: 24px;
+    -webkit-tap-highlight-color: transparent;
+}
+.application__button-in-statusbar::before{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    content:"";
+    font-size: 0;
+}
+.application__button-in-statusbar:hover{
+    cursor: pointer;
+}
+.application__button-add-digitalwatch, .application__button-add-stopwatch, .application__button-add-timer{
+    width: 95%;
+    font-size: 18px;
+}
+.application__button-add-digitalwatch:active, .application__button-add-stopwatch:active, .application__button-add-timer:active, .application__button-close-all-items:active{
+    background-image: linear-gradient( to top, black, rgba(70, 70, 70, 0.5));
+    top: 2px;
+    left: -2px;
+}
+.application__button-text {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    text-indent: 0;
+    color: rgb(185, 185, 185);
+}
+.application__button-text::before{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    content:"";
+    font-size: 0;
+}
+.application__wrapper-for-secondary-buttons-left-side, .application__wrapper-for-secondary-buttons-right-side{
+    box-sizing: border-box;
+    padding: 0;
+    text-align: left;
+}
+.application__wrapper-for-secondary-buttons-left-side{
+    text-align: left;
+    min-width: 170px;
+    z-index: 1000;
+}
+.application__wrapper-for-secondary-buttons-right-side{
+    min-width: 80px;
+    text-align: center;
+}
+.application__wrapper-for-secondary-buttons-left-side::before, .application__wrapper-for-secondary-buttons-right-side::before{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    content:"";
+    font-size: 0;
+}
+.application__button-close-all-items, .application__button-select-language{
+    position: relative;
+    box-sizing: border-box;
+    vertical-align: middle;
+    height: 48px;
+    width: 48px;
+    padding: 0;
+    font-size: 0;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 24px;
+}
+.application__button-close-all-items::before, .application__button-select-language::before{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    content:"";
+    font-size: 0;
+}
+/* BUTTON CLOSE ALL ITEMS */
+.application__button-close-all-items {
+    display: none;
+    border: solid 2px rgb(185, 185, 185);
+    background-color: rgb(185, 185, 185);
+}
+.application__symbol-for-button-close-all-items{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    color:rgb(218, 218, 218);
+    background-image: url("../images/close.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* BUTTON SELECT APP LANGUAGE */
+.application__button-select-language {
+    display: inline-block;
+    background-color: rgb(185, 185, 185);
+    margin-left: 16px;
+}
+.application__select-language-menu {
+    box-sizing: border-box;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    vertical-align: middle;
+    height: 48px;
+    width: 140px;
+    padding: 0;
+    background-color: transparent;
+    font-family: "Days", "Arial", "Helvetica", sans-serif;
+    text-transform: uppercase;
+    color: rgb(185, 185, 185);
+    font-size: 0;
+    border: solid 1px rgb(185, 185, 185);
+    border-radius: 24px;
+    box-shadow: 0 0 1px 1px rgb(185, 185, 185);
+}
+.application__select-language-menu:hover{
+    cursor: pointer;
+}
+.application__select-language-menu-row-for-english, .application__select-language-menu-row-for-russian{
+    box-sizing: border-box;
+    position: absolute;
+    right: 10%;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    font-size: 0;
+    cursor: pointer;
+}
+.application__select-language-menu-row-for-english{
+    top: 0;
+}
+.application__select-language-menu-row-for-russian{
+    bottom: 0;
+}
+.application__select-language-menu-row-for-english:hover, .application__select-language-menu-row-for-russian:hover{
+    color: red;
+}
+.application__select-language-menu-row-for-english::before, .application__select-language-menu-row-for-russian::before{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 0;
+    content:"";
+}
+.application__select-language-menu-english_symbol, .application__select-language-menu-russian_symbol{
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 90%;
+    width: 30%;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 18px;
+}
+.application__select-language-menu-english_symbol::before, .application__select-language-menu-russian_symbol::before{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 0;
+    content:"";
+}
+.application__select-language-menu-english_word, .application__select-language-menu-russian_word{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0;
+    height: 90%;
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.application__select-language-menu-english_word::before, .application__select-language-menu-russian_word::before{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 0;
+    content:"";
+}
+.application__language-flag_wrapper{
+    box-sizing: border-box;
+    display: inline-block;
+    z-index: -1000;
+    height: 100%;
+    width: 100%;
+    border: solid 1px rgb(185, 185, 185);
+    border-radius: 24px;
+}
+.application__language-flag_wrapper::before{
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    height: 100%;
+    font-size: 0;
+}
+.application__flag-England, .application__flag-Russia {
+    box-sizing: border-box;
+    display: none;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 24px;
+}
+.application__flag-England{
+    background-image: url("../images/UKflag.png");
+}
+.application__flag-Russia {
+    background-image: url("../images/RUSflag.png");
+}

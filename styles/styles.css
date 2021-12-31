@@ -1,0 +1,14 @@
+@import url("font-face.css");
+@import url("../components/app/styles/main.css");
+@import url('../components/digitalwatch/styles/main.css');
+@import url('../components/stopwatch/styles/main.css');
+@import url('../components/timer/styles/main.css');
+
+body {
+    margin:0;
+    background-color: rgb(21, 77, 77);
+}
+.application-wrapper {
+    width: 100vw;
+    margin: 0;
+}

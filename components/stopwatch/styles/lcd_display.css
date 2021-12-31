@@ -1,0 +1,72 @@
+.stopwatch__LCDdisplay_wrapper {
+    display: inline-block;
+    position:relative;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 90%;
+    height: 176px;
+    background-color: rgb(102, 99, 99);
+    font-family: 'Digital', "Arial", "Helvetica", sans-serif;
+    color: black;
+    font-size: 0;
+    text-shadow: 2px 2px 1px rgb(85, 85, 85);
+    border: solid 2px rgb(51, 51, 51);
+    border-radius: 16px;
+}
+.stopwatch__LCDdisplay_wrapper::before {
+    display: inline-block;
+    vertical-align: middle;
+    content:"";
+    height: 100%;
+}
+.stopwatch__LCDdisplay-middle-part_wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto;
+    height: 55%;
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+}
+.stopwatch__LCDdisplay-middle-part_wrapper::before {
+    display: inline-block;
+    vertical-align: middle;
+    content:"";
+    height: 100%;
+    font-size: 0;
+}
+.stopwatch__LCDdisplay-middle-part_wrapper > * {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 60px;
+    text-align: right;
+    width: 35px;
+}
+.stopwatch__LCDdisplay-middle-part_colon {
+    line-height: 1.7;
+    width: 8px;
+    height: 100%;
+    font-size: 48px;
+    text-align: center;
+}
+.stopwatch__LCDdisplay-middle-part_milliseconds_block{
+    position: absolute;
+    right: 8px;
+    bottom: -24px;
+    width: 87px;
+    height: 43px;
+    font-size: 0;
+    text-align: right;
+}
+.stopwatch__LCDdisplay-middle-part_milliseconds_decades, .stopwatch__LCDdisplay-middle-part_milliseconds_units {
+    display: inline-block;
+    min-width: 21px;
+    font-size: 36px;
+    text-align: right;
+}
+.stopwatch__LCDdisplay-middle-part_milliseconds_title {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 18px;
+}

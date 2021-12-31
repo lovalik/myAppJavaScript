@@ -1,0 +1,157 @@
+/* CONTROL BUTTONS ON LEFT SIDE///////////////////////////////////////////// */
+.stopwatch__button-left-side-top_wrapper, .stopwatch__button-left-side-bottom_wrapper {
+    position:absolute;
+    left: -37px;
+    width: 32px;
+    height: 80px;
+}
+.stopwatch__button-left-side-top_wrapper {
+    top: 64px; 
+}
+.stopwatch__button-left-side-bottom_wrapper {
+    bottom: 64px;
+}
+.stopwatch__button-left-side-top_part1, .stopwatch__button-left-side-bottom_part1 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 13px;
+    height: 80px;
+    background-image: radial-gradient(at 55% 25%, rgb(102, 99, 99), black, black);
+    border-radius: 6px / 40px;
+}
+.stopwatch__button-left-side-top_part2, .stopwatch__button-left-side-bottom_part2{
+    box-sizing: border-box;
+    position:absolute;
+    top: 16px;
+    right: 7px;
+    width: 14px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(at 75% 25%, rgb(102, 99, 99), black, black);
+    z-index: 10000;
+    border: solid 0.01rem rgb(0, 0, 0);
+    border-bottom-right-radius: 3px 24px;
+    border-top-right-radius: 3px 24px;
+    border-bottom-left-radius: 6px 24px;
+    border-top-left-radius: 6px 24px;
+    cursor:pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.stopwatch__button-left-side-top_part3, .stopwatch__button-left-side-bottom_part3 {
+    box-sizing: border-box;
+    position:absolute;
+    top: 8px;
+    left: 18px;
+    width: 10px;
+    height: 64px;
+    background-image: radial-gradient(at 75% 25%, rgb(255, 255, 255),  rgb(180, 180, 180),  rgb(150, 150, 150), rgb(150, 150, 150), rgb(150, 150, 150));
+    z-index: 1000;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px / 32px;
+}
+/* CONTROL BUTTONS ON RIGHT SIDE//////////////////////////////////////////// */
+.stopwatch__button-right-side-top_wrapper, .stopwatch__button-right-side-bottom_wrapper {
+    position:absolute;
+    right: -37px;
+    width: 32px;
+    height: 80px;
+}
+.stopwatch__button-right-side-top_wrapper {
+    top: 64px;
+}
+.stopwatch__button-right-side-bottom_wrapper {
+    bottom: 64px;
+}
+.stopwatch__button-right-side-top_part1, .stopwatch__button-right-side-bottom_part1 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    width: 13px;
+    height: 80px;
+    background-image: radial-gradient(at 55% 25%, rgb(102, 99, 99), black, black);
+    border-radius: 6px / 40px;
+}
+.stopwatch__button-right-side-top_part2, .stopwatch__button-right-side-bottom_part2 {
+    box-sizing: border-box;
+    position:absolute;
+    top: 16px;
+    left: 7px;
+    width: 14px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(at 25% 25%, rgb(102, 99, 99), black, black);
+    z-index: 10000;
+    border: solid 1px rgb(0, 0, 0);
+    border-bottom-right-radius: 6px 24px;
+    border-top-right-radius: 6px 24px;
+    border-bottom-left-radius: 3px 24px;
+    border-top-left-radius: 3px 24px;
+    cursor:pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.stopwatch__button-right-side-top_part3, .stopwatch__button-right-side-bottom_part3 {
+    box-sizing: border-box;
+    position:absolute;
+    top: 8px;
+    right: 18px;
+    width: 10px;
+    height: 64px;
+    z-index: 1000;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px / 32px;
+}
+.stopwatch__button-left-side-top_part2:hover, .stopwatch__button-left-side-bottom_part2:hover, .stopwatch__button-right-side-top_part2:hover, .stopwatch__button-right-side-bottom_part2:hover {
+    border: solid red 1px;
+}
+.stopwatch__button-right-side-top_part3 {
+    background-image: radial-gradient(at 35% 25%, rgb(248, 166, 166),  rgb(255, 67, 67), rgb(226, 0, 0),  rgb(226, 0, 0), rgb(226, 0, 0) );
+}
+.stopwatch__button-right-side-bottom_part3{
+    background-image: radial-gradient(at 25% 25%, rgb(255, 255, 255),  rgb(180, 180, 180),  rgb(150, 150, 150), rgb(150, 150, 150), rgb(150, 150, 150));
+}
+/* CAPTION FOR CONTROL BUTTONS */
+.stopwatch__title-for-button {
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 1000;
+    margin: 0;
+    width: 18px;
+    height: 64px;
+    font-family: 'Days', "Arial", "Helvetica", sans-serif;
+    color: rgb(185, 185, 185);
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    text-shadow: 0 0 1px rgb(255, 2, 2);
+    text-transform: uppercase;
+    background-color: transparent;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 9px;
+    box-shadow: inset 0 0 1px rgb(116, 116, 116);
+}
+.stopwatch__title-for-button-right-side-top, .stopwatch__title-for-button-right-side-bottom{
+    right: 1px;
+    writing-mode: vertical-rl;
+}
+.stopwatch__title-for-button-right-side-top{
+    height: 86px;
+    top: 62px;
+}
+.stopwatch__title-for-button-right-side-bottom{
+    bottom: 64px;
+}
+.stopwatch__title-for-button-left-side-top, .stopwatch__title-for-button-left-side-bottom {
+    left: 1px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.stopwatch__title-for-button-left-side-top {
+    top: 72px;
+}
+.stopwatch__title-for-button-left-side-bottom{
+    bottom: 72px;
+}

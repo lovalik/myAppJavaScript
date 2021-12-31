@@ -1,0 +1,39 @@
+.stopwatch__animation-for-control-buttons {
+    animation-name: press-button;
+    animation-duration: 0.3s;
+}
+@keyframes press-button {
+    0% {
+        width: 14px;
+    }
+    50% {
+        width: 10px;
+    }
+    100% {
+        width: 14px;
+    }
+}
+
+@-webkit-keyframes press-button {
+    0% {
+        width: 14px;
+    }
+    50% {
+        width: 10px;
+    }
+    100% {
+        width: 14px;
+    }
+}
+
+@-moz-keyframes press-button {
+    0% {
+        width: 14px;
+    }
+    50% {
+        width: 10px;
+    }
+    100% {
+        width: 14px;
+    }
+}
