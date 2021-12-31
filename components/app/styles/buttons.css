@@ -226,7 +226,6 @@
     text-align: center;
     font-size: 18px;
     vertical-align: middle;
-    outline: solid 1px red;
 }
 .application__select-language-menu-english_word::before, .application__select-language-menu-russian_word::before{
     display: inline-block;
