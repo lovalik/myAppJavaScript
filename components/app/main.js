@@ -1,7 +1,7 @@
 import { appUI } from "./ui.js";
-import { createDigitalwatch } from "../Digitalwatch/main.js";
-import { createStopwatch } from "../Stopwatch/main.js";
-import { createTimer } from "../Timer/main.js";
+import { createDigitalwatch } from "../digitalwatch/main.js";
+import { createStopwatch } from "../stopwatch/main.js";
+import { createTimer } from "../timer/main.js";
 
 function createApp( { addApplicationToDocument } ) {
 
