@@ -1,4 +1,3 @@
-
 function template( dictionary ){
 
     return `<div class="timer__case">

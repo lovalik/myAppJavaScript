@@ -1,6 +1,6 @@
 /* ANIMATION EXECUTES WHEN USER NOT SET TIME VALUE */
 
-/* FOR DIGITS */
+    /* FOR DIGITS */
 .timer__animation-when-user-not-set-value_for-digits {
     animation-name: animation-when-user-not-set-value_for-digits;
     animation-duration: 175ms;
@@ -46,7 +46,7 @@
 
 }
 
-/* FOR BUTTONS */
+    /* FOR BUTTONS */
 .timer__animation-when-user-not-set-value_for-buttons {
     animation-name: animation-when-user-not-set-value_for-buttons;
     animation-duration: 175ms;
@@ -110,7 +110,7 @@
     }
 }
 
-/* FOR TITLE */
+    /* FOR TITLE */
 .timer__animation-when-user-not-set-value_for-title {
     animation-name: animation-when-user-not-set-value_for-title;
     animation-delay: 700ms;
@@ -186,6 +186,8 @@
     }
 
 }
+
+
 /* ANIMATION EXECUTES WHEN TIME IS OUT */
 .timer__animation-when-time-is-out-for-digits {
     animation-name: animation-when-time-is-out-for-digits;

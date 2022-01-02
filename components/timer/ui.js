@@ -420,7 +420,6 @@ function ui( {
         stopAnimationForControlButtonOnLeftAndRightSide,
         stopAnimationWhenTimeIsOut,
         stopAnimationWhenTimeUserNotSetTime
-        
     }
 
 }

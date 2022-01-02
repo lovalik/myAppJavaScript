@@ -1,4 +1,4 @@
-/* CONTROL BUTTONS ON LEFT SIDE///////////////////////////////////////////// */
+/* CONTROL BUTTONS ON LEFT SIDE */
 .stopwatch__button-left-side-top_wrapper, .stopwatch__button-left-side-bottom_wrapper {
     position:absolute;
     left: -37px;
@@ -52,7 +52,7 @@
     border: solid 1px rgb(0, 0, 0);
     border-radius: 5px / 32px;
 }
-/* CONTROL BUTTONS ON RIGHT SIDE//////////////////////////////////////////// */
+/* CONTROL BUTTONS ON RIGHT SIDE */
 .stopwatch__button-right-side-top_wrapper, .stopwatch__button-right-side-bottom_wrapper {
     position:absolute;
     right: -37px;

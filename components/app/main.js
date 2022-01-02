@@ -229,7 +229,7 @@ function createApp( { addApplicationToDocument } ) {
 
     }
 
-    document.addEventListener("visibilitychange", function() {
+    document.addEventListener( "visibilitychange", function() {
 
         if ( document.visibilityState === 'hidden') {
             localStorage.setItem( `applicationState`, JSON.stringify( applicationState ) );

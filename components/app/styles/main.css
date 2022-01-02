@@ -2,7 +2,6 @@
 @import url( "responsive.css" );
 
 .myApplication {
-    /* width: 100vw; */
     margin: 0;
     font-size: 0;
 }

@@ -74,17 +74,13 @@ function ui( {
     }
 
     function startAnimationForControlButtons( button ) {
-
         button.classList.add("stopwatch__animation-for-control-buttons");
         button.disabled = true;
-
     }
 
     function stopAnimationForControlButtons( button ) {
-
         button.classList.remove("stopwatch__animation-for-control-buttons" );
         button.disabled = false;
-
     }
 
     return {

@@ -57,8 +57,12 @@
     width: 95%;
     font-size: 18px;
 }
-.application__button-add-digitalwatch:active, .application__button-add-stopwatch:active, .application__button-add-timer:active, .application__button-close-all-items:active{
-    background-image: linear-gradient( to top, black, rgba(70, 70, 70, 0.5));
+.application__button-add-digitalwatch:active, .application__button-add-stopwatch:active, .application__button-add-timer:active{
+    background-image: linear-gradient( to top, black, rgba(75, 75, 75, 0.7));
+    top: 2px;
+    left: -2px;
+}
+.application__button-close-all-items:active{
     top: 2px;
     left: -2px;
 }
@@ -143,7 +147,6 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-
 /* BUTTON SELECT APP LANGUAGE */
 .application__button-select-language {
     display: inline-block;
