@@ -18,7 +18,8 @@ function ui( {
 
     const timer = document.createElement('div');
     timer.className = "timer";
-    timer.innerHTML = template( dictionaryForTemplate );
+    timer.insertAdjacentHTML( 'beforeend', template( dictionaryForTemplate ) );
+
 
     const LCDDisplayWrapper = timer.querySelector(".timer__LCDdisplay_wrapper");
     const collectionAllButtons = timer.querySelectorAll( ".timer__button-close, .timer__button-start, .timer__button-pause, .timer__button-reset, .timer__button-increase-value, .timer__button-decrease-value" );

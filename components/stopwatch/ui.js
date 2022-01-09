@@ -13,7 +13,7 @@ function ui( {
 
     const stopwatch = document.createElement( 'div' );
     stopwatch.className = "stopwatch";
-    stopwatch.innerHTML = createTemplate( dictionaryForTemplate );
+    stopwatch.insertAdjacentHTML( 'beforeend', createTemplate( dictionaryForTemplate ) );
 
     const buttonClose = stopwatch.querySelector( ".stopwatch__button-close" );
     const buttonStart = stopwatch.querySelector( ".stopwatch__button-start" );
